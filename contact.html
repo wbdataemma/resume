@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h2>Contact Me</h2>
+  <ol>
+    <li>email : emmaweb.data@gmail.com</li>
+    <li>address : email me</li>
+    <li>phone number : 667XXXXXXX</li>
+  </ol>
+  <hr>
+  <form action="mailto:emmaweb.data@gmail.com" method="post" enctype="text/plain">
+    <label for="">Your Name:</label>
+    <input type="text" name="yourName" value=""> <!-- input that takes a text -->
+    <input type="color" name="" value=""> <br> <!-- input of a color picker on the website -->
+    <label for="">Email: </label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label for="">Your message:</label><br>
+    <textarea name="yourMessage " rows="10" cols="30"></textarea><br>
+    <label for="">check to sign up for newsletters</label>
+    <input type="checkbox" name="" value="">
+    <input type="submit" name=""> <!-- a submit button next to the text input --><br>
+    <label for="">Upload:</label>
+    <input type="file" name="" value=""><br>
+    <!---<input type="date" name="" value=""> -->
+  </form><br>
+  <hr>
+  <h4>Notes for this page</h4>
+  <p> The form "actions" default is set to index.html we can set it to our personal email, this means that very
+    action in the input section will go back to the index.html, but when set to our email, it's like someone is sending us a message over the internet.
+    So action as been set to "mailto:emmaweb.data@gmail.com" and method="post" means that all the corresponding input will post to our email. We delete <thead>
+    class and write enctype="text/plain"
+  </p>
+</body>
+
+</html>
